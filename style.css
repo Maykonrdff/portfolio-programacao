@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f6fa;
+}
+
+/* TOPO */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    color: #ff6600;
+}
+
+.menu span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.busca {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+/* FILTROS */
+.filtros {
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    background: white;
+}
+
+.filtros button {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+}
+
+/* CARDS */
+.carros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 280px;
+    background: white;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+}
+
+.info-card {
+    padding: 10px;
+}
+
+.desc {
+    color: gray;
+    font-size: 14px;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.extra {
+    font-size: 13px;
+    color: #555;
+}
+
+/* BOTÕES */
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.zap {
+    background: #25D366;
+    color: white;
+}
+
+.simular {
+    background: #ff6600;
+    color: white;
+}
